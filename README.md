@@ -1,4 +1,5 @@
-# ## キットに同梱されているもの
+## キットに同梱されているもの
+
 |部品|個数|備考|
 |:--|:--|:--|
 |PCB|1|リードタイプと表面実装のダイオードに対応。|
@@ -62,31 +63,61 @@ PCBの表面にダイオードの足をハンダ付けします。
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2957.jpg?raw=true" width = "600px" />
 
 ### 3. リセットスイッチの取り付け
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+ファームウェア書き込み時等に利用するリセットスイッチを取り付けます。 
+リセットスイッチはタクトスイッチを使用します。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2975.jpg?raw=true" width = "600px" />
+
+取り付け位置は基盤裏側の「RESET」の文字が書かれた箇所です。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2976.jpg?raw=true" width = "600px" />
+
+タクトスイッチを穴に挿します。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2977.jpg?raw=true" width = "600px" />
+
+基盤表面にタクトスイッチの足が出ていることを確認します。  
+足をハンダ付けして取り付け完了です。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2978.jpg?raw=true" width = "600px" />
+
+### 4. Pro Microの取り付け
+
+Pro Microは基盤裏側に取り付けます。取り付けにはピンヘッダかコンスルーを用います。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3024.jpg?raw=true" width = "600px" />  
+
+なお、コンスルーを用いずピンヘッダで取り付ける場合は
+
+1. ピンヘッダをPCBに取り付ける(ピンヘッダの足をPCB表側からハンダ付け)
+1. キースイッチやMXソケットをトッププレートと一緒にハンダ付けする
+1. Pro Microを取りける
+
+といった手順となります。
+
+** 手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはオススメしません。**
+
+コンスルー(ピンヘッダ)は回路がある側とは逆に足が来るように、取り付けます。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3023.jpg?raw=true" width = "600px" />
+
+Pro Microを取り付けます。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3025.jpg?raw=true" width = "600px" />
+
+### 5. ファームウェアの書き込み
 
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+### 6. LEDの取り付け
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+LED(WS2812B)は組み立て後でも取り付けが可能です。  
+LEDは以下の順番に取り付けます。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2946_led.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+### 7. キースイッチの取り付け
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+#### a. キースイッチソケットを利用する場合
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+キースイッチソケットをキースイッチの固定に利用することでキースイッチの交換が用意になります。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2966.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
-
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+キースイッチ
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2969.jpg?raw=true" width = "600px" />
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
