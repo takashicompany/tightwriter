@@ -3,19 +3,17 @@
 |部品|個数|備考|
 |:--|:--|:--|
 |PCB|1|リードタイプと表面実装のダイオードに対応。|
-|キースイッチプレート|1|MX互換キースイッチの場合は厚さ3mm、Kailh Choc v1キースイッチの場合は2mm厚を推奨。|
-|積層サイドプレート|8||
-|ボトムプレート|1||
 |ダイオード|35||
 |m2ネジ(14mm)|12||
 |m2ナット|12||
 |リセットスイッチ|1||
 |滑り止めシール|6||
 
-### 別途用意するもの
+### 別途で用意するもの
 |部品|個数|備考|
 |:--|:--|:--|
-|キースイッチ|35|Cherry MX互換のもの or Kailh Choc v1|
+|[アクリル板ケース](https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=46424945328359)|1|遊舎工房にてお好みのカラーのTightwriterのケースを発注ください。キースイッチプレート、積層プレート、ボトムプレートでケースを組み立てます。|
+|キースイッチ|35|Cherry MX互換|
 |キーキャップ|35||
 |Pro Micro|1||
 |USBケーブル|1|Pro MicroとPCを接続します。|
@@ -29,16 +27,16 @@
 
 ### 1. PCBの表裏を確認する
 
-表
+表  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2943.jpg?raw=true" width = "600px" />
 
-裏
+裏  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2946.jpg?raw=true" width = "600px" />
 
 ### 2. ダイオードの取り付け
 
-ダイオード
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.2947jpg?raw=true" width = "600px" />
+ダイオードはスルーホール型を用います。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2947.jpg?raw=true" width = "600px" />
 
 ダイオードはPCB裏面から取り付けます。ダイオードの中央部のカソード(黒い線)がPCBの`▷|`の縦線の向きと同じになるように配置します。  
 下図を例に上げると、ダイオードのカソードが右側に来るようにしています。  
@@ -64,14 +62,14 @@ PCBの表面にダイオードの足をハンダ付けします。
 
 ### 3. リセットスイッチの取り付け
 
-ファームウェア書き込み時等に利用するリセットスイッチを取り付けます。 
-リセットスイッチはタクトスイッチを使用します。
+ファームウェア書き込み時等に利用するリセットスイッチを取り付けます。  
+リセットスイッチはタクトスイッチを使用します。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2975.jpg?raw=true" width = "600px" />
 
 取り付け位置は基盤裏側の「RESET」の文字が書かれた箇所です。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2976.jpg?raw=true" width = "600px" />
 
-タクトスイッチを穴に挿します。
+タクトスイッチを穴に挿します。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2977.jpg?raw=true" width = "600px" />
 
 基盤表面にタクトスイッチの足が出ていることを確認します。  
@@ -91,7 +89,7 @@ Pro Microは基盤裏側に取り付けます。取り付けにはピンヘッ�
 
 といった手順となります。
 
-** 手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはオススメしません。**
+**手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはコンスルーの使用を強く推奨致します。コンスルーを使用しなかった場合はサポート対象外となる場合がございますのでご了承ください。**
 
 コンスルー(ピンヘッダ)は回路がある側とは逆に足が来るように、取り付けます。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3023.jpg?raw=true" width = "600px" />
@@ -111,19 +109,152 @@ LEDは以下の順番に取り付けます。
 
 ### 7. キースイッチの取り付け
 
+自作キーボードの組み立て経験が浅い方はa.をオススメ致します。
+
 #### a. キースイッチソケットを利用する場合
 
 キースイッチソケットをキースイッチの固定に利用することでキースイッチの交換が用意になります。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2966.jpg?raw=true" width = "600px" />
 
-キースイッチ
+キースイッチソケットはMX用の印刷がされた箇所に差し込みます。
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2969.jpg?raw=true" width = "600px" />
+
+キースイッチソケットのハンダ付け箇所の片方に事前にハンダを溶かして載せておきます。(予備ハンダ)  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2970.jpg?raw=true" width = "600px" />
+
+ピンセットでキースイッチソケットを持ちながら予備ハンダをハンダごてで溶かしながらキースイッチソケットの片側をハンダ付けします。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2971.jpg?raw=true" width = "600px" />
+
+もう片側もハンダ付けをして取り付けが完了です。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2972.jpg?raw=true" width = "600px" />
+
+尚、Pro Microの箇所のキースイッチのみ、Choc v1のキースイッチソケットを取り付けることはできませんのでご注意ください。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2974.jpg?raw=true" width = "600px" />
+
+#### b. キースイッチソケットを使用せず直接PCBする
+
+後述のキースイッチプレートにキースイッチをはめ込み、PCBにキースイッチの足を通しハンダ付けをします。
+
+### 8. スタビライザーの取り付け
+
+スタビライザーは、長いキーを安定させる・キーのどこを押しても押下できるようにするパーツです。  
+なくてもキーボードとして動作は可能です。  
+スタビライザーをご利用される場合は、2u用が二つと6.25u用がご用意頂くとよろしいかと思います。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3030.jpg?raw=true" width = "600px" />
+
+スタビライザーはPCBに挿し込むことで装着が可能です。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+### 8. ケースの組み立て
+
+ケースを組み立てます。  
+下の写真は上から
+
+- キースイッチプレート
+- 積層プレート(左上、左下、右上、右下)
+- ボトムプレート
+
+となります。
+
+積層プレートは各種類が2枚ずつ必要となります。(合計8枚)  
+また、遊舎工房でケースを発注された場合はボトムプレートが一部くり抜かれたデザインとなっています。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3029.jpg?raw=true" width = "600px" />
+
+スイッチプレートと積層プレート、ボトムプレートをPCBと重ね合わせます。  
+この際にキースイッチを数個程度スイッチプレートに事前に挿しておき、PCBのソケットに挿すとPCBとスイッチプレートを仮止めできます。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3032.jpg?raw=true" width = "600px" />
+
+各種プレートはネジとボルトで固定します。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3034.jpg?raw=true" width = "600px" />
+
+ネジはキーボードの表側から通します。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3036.jpg?raw=true" width = "600px" />
+
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
