@@ -62,14 +62,14 @@ PCBの表面にダイオードの足をハンダ付けします。
 
 ### 3. リセットスイッチの取り付け
 
-ファームウェア書き込み時等に利用するリセットスイッチを取り付けます。 
-リセットスイッチはタクトスイッチを使用します。
+ファームウェア書き込み時等に利用するリセットスイッチを取り付けます。  
+リセットスイッチはタクトスイッチを使用します。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2975.jpg?raw=true" width = "600px" />
 
 取り付け位置は基盤裏側の「RESET」の文字が書かれた箇所です。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2976.jpg?raw=true" width = "600px" />
 
-タクトスイッチを穴に挿します。
+タクトスイッチを穴に挿します。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2977.jpg?raw=true" width = "600px" />
 
 基盤表面にタクトスイッチの足が出ていることを確認します。  
@@ -89,7 +89,7 @@ Pro Microは基盤裏側に取り付けます。取り付けにはピンヘッ�
 
 といった手順となります。
 
-** 手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはオススメしません。**
+**手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはコンスルーの使用を強く推奨致します。**
 
 コンスルー(ピンヘッダ)は回路がある側とは逆に足が来るように、取り付けます。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3023.jpg?raw=true" width = "600px" />
