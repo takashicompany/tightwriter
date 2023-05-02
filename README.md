@@ -12,7 +12,7 @@
 ### 別途で用意するもの
 |部品|個数|備考|
 |:--|:--|:--|
-|[アクリル板ケース](https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=46424945328359)|1|遊舎工房にてお好みのカラーのTightwriterのケースを発注ください。キースイッチプレート、積層サイドプレート、ボトムプレートでケースを組み立てます。|
+|[アクリル板ケース](https://shop.yushakobo.jp/products/keyboard_acrylic_plate?variant=46424945328359)|1|遊舎工房にてお好みのカラーのTightwriterのケースを発注ください。キースイッチプレート、積層プレート、ボトムプレートでケースを組み立てます。|
 |キースイッチ|35|Cherry MX互換|
 |キーキャップ|35||
 |Pro Micro|1||
@@ -89,7 +89,7 @@ Pro Microは基盤裏側に取り付けます。取り付けにはピンヘッ�
 
 といった手順となります。
 
-**手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはコンスルーの使用を強く推奨致します。**
+**手順が難しく、やり直しには手間がかかるため、組み立てに慣れていない方にはコンスルーの使用を強く推奨致します。コンスルーを使用しなかった場合はサポート対象外となる場合がございますのでご了承ください。**
 
 コンスルー(ピンヘッダ)は回路がある側とは逆に足が来るように、取り付けます。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3023.jpg?raw=true" width = "600px" />
@@ -108,6 +108,8 @@ LEDは以下の順番に取り付けます。
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2946_led.jpg?raw=true" width = "600px" />
 
 ### 7. キースイッチの取り付け
+
+自作キーボードの組み立て経験が浅い方はa.をオススメ致します。
 
 #### a. キースイッチソケットを利用する場合
 
@@ -129,19 +131,45 @@ LEDは以下の順番に取り付けます。
 尚、Pro Microの箇所のキースイッチのみ、Choc v1のキースイッチソケットを取り付けることはできませんのでご注意ください。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2974.jpg?raw=true" width = "600px" />
 
-#### b. キースイッチソケットを使用せず
+#### b. キースイッチソケットを使用せず直接PCBする
 
+後述のキースイッチプレートにキースイッチをはめ込み、PCBにキースイッチの足を通しハンダ付けをします。
+
+### 8. スタビライザーの取り付け
+
+スタビライザーは、長いキーを安定させる・キーのどこを押しても押下できるようにするパーツです。  
+なくてもキーボードとして動作は可能です。  
+スタビライザーをご利用される場合は、2u用が二つと6.25u用がご用意頂くとよろしいかと思います。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3030.jpg?raw=true" width = "600px" />
+
+スタビライザーはPCBに挿し込むことで装着が可能です。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+### 8. ケースの組み立て
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+ケースを組み立てます。  
+下の写真は上から
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+- キースイッチプレート
+- 積層プレート(左上、左下、右上、右下)
+- ボトムプレート
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+となります。
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+積層プレートは各種類が2枚ずつ必要となります。(合計8枚)  
+また、遊舎工房でケースを発注された場合はボトムプレートが一部くり抜かれたデザインとなっています。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3029.jpg?raw=true" width = "600px" />
+
+スイッチプレートと積層プレート、ボトムプレートをPCBと重ね合わせます。  
+この際にキースイッチを数個程度スイッチプレートに事前に挿しておき、PCBのソケットに挿すとPCBとスイッチプレートを仮止めできます。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3032.jpg?raw=true" width = "600px" />
+
+各種プレートはネジとボルトで固定します。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3034.jpg?raw=true" width = "600px" />
+
+ネジはキーボードの表側から通します。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3036.jpg?raw=true" width = "600px" />
+
 
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 
