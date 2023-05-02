@@ -27,16 +27,16 @@
 
 ### 1. PCBの表裏を確認する
 
-表
+表  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2943.jpg?raw=true" width = "600px" />
 
-裏
+裏  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2946.jpg?raw=true" width = "600px" />
 
 ### 2. ダイオードの取り付け
 
-ダイオード
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.2947jpg?raw=true" width = "600px" />
+ダイオードはスルーホール型を用います。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2947.jpg?raw=true" width = "600px" />
 
 ダイオードはPCB裏面から取り付けます。ダイオードの中央部のカソード(黒い線)がPCBの`▷|`の縦線の向きと同じになるように配置します。  
 下図を例に上げると、ダイオードのカソードが右側に来るようにしています。  
@@ -114,14 +114,117 @@ LEDは以下の順番に取り付けます。
 キースイッチソケットをキースイッチの固定に利用することでキースイッチの交換が用意になります。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2966.jpg?raw=true" width = "600px" />
 
-キースイッチ
+キースイッチソケットはMX用の印刷がされた箇所に差し込みます。
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2969.jpg?raw=true" width = "600px" />
+
+キースイッチソケットのハンダ付け箇所の片方に事前にハンダを溶かして載せておきます。(予備ハンダ)  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2970.jpg?raw=true" width = "600px" />
+
+ピンセットでキースイッチソケットを持ちながら予備ハンダをハンダごてで溶かしながらキースイッチソケットの片側をハンダ付けします。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2971.jpg?raw=true" width = "600px" />
+
+もう片側もハンダ付けをして取り付けが完了です。
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2972.jpg?raw=true" width = "600px" />
+
+尚、Pro
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
