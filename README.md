@@ -164,20 +164,30 @@ LEDは以下の順番に取り付けます。
 この際にキースイッチを数個程度スイッチプレートに事前に挿しておき、PCBのソケットに挿すとPCBとスイッチプレートを仮止めできます。
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3032.jpg?raw=true" width = "600px" />
 
-各種プレートはネジとボルトで固定します。  
+各種プレートはネジとナットで固定します。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3034.jpg?raw=true" width = "600px" />
 
-ネジはキーボードの表側から通します。
+ネジはキーボードの表側から通します。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3036.jpg?raw=true" width = "600px" />
 
+裏面から飛び出たネジの足をナットで固定します。このときキーボードを逆さまにするとネジが取れてしまうことがありますので、ネジをマスキングテープなどで仮止めしておくと、作業がスムーズに進むかと思います。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3037.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+ケースが固定できたらキースイッチを差し込みます。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3038.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+### 9. ゴム足シールの取り付け
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+ゴム足シールをボトムプレートに貼り付けます。  
+<img src = "https://github.com/takashicompany/minidivide/raw/master/images/build/IMG_3748.jpg?raw=true" width = "600px" />
 
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+以下は取り付け例です。ご自身の打鍵スタイルにあった位置を探してみてください。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3037.jpg?raw=true" width = "600px" />
+
+### 10. キースイッチにキーキャップを挿し込む
+
+キースイッチにキーキャップを挿し込んで完成です。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3041.jpg?raw=true" width = "600px" />
 
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 
