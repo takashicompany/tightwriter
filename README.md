@@ -126,8 +126,10 @@ LEDは以下の順番に取り付けます。
 もう片側もハンダ付けをして取り付けが完了です。
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2972.jpg?raw=true" width = "600px" />
 
-尚、Pro
-<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
+尚、Pro Microの箇所のキースイッチのみ、Choc v1のキースイッチソケットを取り付けることはできませんのでご注意ください。  
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2974.jpg?raw=true" width = "600px" />
+
+#### b. キースイッチソケットを使用せず
 
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_.jpg?raw=true" width = "600px" />
 
