@@ -206,3 +206,13 @@ LEDは以下の順番に取り付けます。
 キースイッチにキーキャップを挿し込んで完成です。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3041.jpg?raw=true" width = "600px" />
 
+### 完成したら
+
+完成しましたら、ぜひSNSなどに写真を投稿頂ければと思います。
+Twitterのハッシュタグは [`#Tightwriter #自作キーボード`](https://twitter.com/search?q=%23%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%20%23Tightwriter&src=typed_query) を付けていただけると幸いです。
+キットを組み立てた感想や、キーボードを使った所感などをお待ちしております！
+
+また、毎週日曜日の１9時より実施されている[#KEEP_PD](https://twitter.com/hashtag/KEEB_PD?f=live)に投稿頂くこともオススメです。  
+開催の告知は[@KEEB_PD](https://twitter.com/KEEB_PD)にて行われております。
+
+ご不明な点などございましたら、[@takashicompany](https://twitter.com/takashicompany)にメンションやDM頂ければ回答できるかと思います。
