@@ -99,6 +99,9 @@ Pro Microは基盤裏側に取り付けます。取り付けにはピンヘッ�
 Pro Microを取り付けます。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3025.jpg?raw=true" width = "600px" />
 
+Pro Microの種類によっては全高が高いため、キットの底面からPro Microがはみ出てしまい、打鍵時のグラつきの原因となる可能性があります。  
+その場合は、厚めのゴム足シールを底面に取り付けてください。
+
 ### 5. ファームウェアの書き込み
 
 キースイッチを取り付ける前に、ダイオードが正常に取り付けられているかを確認すると作業の手戻りが少なくなります。
