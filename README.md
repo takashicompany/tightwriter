@@ -204,6 +204,7 @@ LEDは以下の順番に取り付けます。
 ### 10. キースイッチにキーキャップを挿し込む
 
 キースイッチにキーキャップを挿し込んで完成です。  
+スペースキーはキーキャップによってはZの行のキーと干渉する場合があります。その際はスペースキーの向きを反対にすることを試してみてください。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_3041.jpg?raw=true" width = "600px" />
 
 ### 完成したら
