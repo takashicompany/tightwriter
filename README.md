@@ -3,7 +3,7 @@
 |部品|個数|備考|
 |:--|:--|:--|
 |PCB|1||
-|[ダイオード]|35|[リードタイプ](https://shop.yushakobo.jp/products/a0800di-01-100)と[SMD(表面実装)タイプ](https://shop.yushakobo.jp/products/a0800di-02-100)の両方に対応しております。|
+|ダイオード|35|[リードタイプ](https://shop.yushakobo.jp/products/a0800di-01-100)と[SMD(表面実装)タイプ](https://shop.yushakobo.jp/products/a0800di-02-100)の両方に対応しております。|
 |[m2ネジ(14mm)](https://item.rakuten.co.jp/nejiya/0000020000020014000000_b10/)|12||
 |[m2ナット](https://item.rakuten.co.jp/nejiya/00n0060000020000000000_b10/)|12||
 |[タクタイルスイッチ](https://shop.yushakobo.jp/products/a0800ts-01-1)|1||
