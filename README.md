@@ -61,7 +61,7 @@ PCBの表面にダイオードの足をハンダ付けします。
 ダイオードの足をニッパーで切ります。  
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/build/IMG_2957.jpg?raw=true" width = "600px" />
 
-### 3. リセットスイッチの取り付け
+### 3. タクトスイッチ(リセットスイッチ)qの取り付け
 
 ファームウェア書き込み時等に利用するリセットスイッチを取り付けます。  
 リセットスイッチはタクトスイッチを使用します。  
