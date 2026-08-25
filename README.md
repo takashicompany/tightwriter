@@ -1,3 +1,10 @@
+![image](https://github.com/takashicompany/tightwriter/assets/4215759/90baf54c-075f-45ef-85d8-a539bc437b7e)
+
+
+# Tightwriter
+
+<img src = "https://github.com/takashicompany/tightwriter/blob/master/images/01.jpg?raw=true" width = "600px" />
+
 ## キットに同梱されているもの
 
 |部品|個数|備考|
