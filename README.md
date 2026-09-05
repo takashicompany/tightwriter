@@ -3,6 +3,9 @@
 
 # Tightwriter
 
+3Dプリントケースについては[こちら](https://x.com/takashicompany/status/2017900743093547508?s=20)  
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/dac74a4c-73db-450b-9c44-ee2ccbc3380c" />
+
 <img src = "https://github.com/takashicompany/tightwriter/blob/master/images/01.jpg?raw=true" width = "600px" />
 
 ## キットに同梱されているもの
